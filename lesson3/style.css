@@ -1,7 +1,8 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
     text-decoration: sans-serif;
 }
     body{
@@ -94,3 +95,101 @@
         flex-direction: row;
         padding-left: 30px;
     }
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  
+  body {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  
+  
+  .navbar{
+    width: 100%;
+    background-color: rgba(36,37,42,255);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .left, .right{
+    display: inline-block;
+  }
+  
+  
+  .right{
+    width: 80px;
+    text-align: right;
+  }
+  
+  .navbar-menu{
+    list-style-type: none;
+    display: flex;
+  }
+  
+  
+  .menu-item{
+    display: inline-block;
+  }
+  
+  .left>a, .menu-link{
+    color: white;
+  }
+  .left>a{
+    font-size: 20px;
+  }
+  
+  .btn{
+    background-color: rgb(14, 168, 91);
+    padding: 8px 15px;
+    border-radius: 15px;
+  }
+  .menu-link{
+  }
+  .left{
+    margin-left: 100px;
+  }
+  .menu-btn{
+    border: none;
+    background-color: rgba(0,141,165,255);
+    padding: 10px 15px;
+    border-radius: 15px;
+    /* box-shadow: 0px 0px 8px white; */
+  }
+  
+  .navCon {
+    display: flex;
+  
+  }
+  
+  .navCon ul {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+  }
+  
+  .nav2 {
+    padding: 30px;
+    flex-direction: row-reverse;
+    padding-left: 130px;
+  }
+  
+  .navCon {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .nav3 {
+    flex-direction: row;
+    padding-left: 30px;
+  }
+ */
